@@ -1,0 +1,87 @@
+@import url(../src/css/abstracts/colors.css);
+@import url(../src/css/abstracts/font.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  font-family: var(--typo-family);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1440px;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 300px auto;
+}
+
+.box {
+  height: 100vh;
+  background: rgb(23, 25, 32);
+  background: linear-gradient(180deg, rgb(23, 25, 32) 0%, rgb(27, 29, 37) 16%, rgb(72, 123, 245) 250%);
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+
+.navigation {
+  border-right: 1px solid rgba(255, 255, 255, 0.116);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #171920;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  padding-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 50px;
+  gap: 15px;
+}
+
+.page {
+  margin: 5px;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page a {
+  text-decoration: none;
+  width: 110px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.s{
+  background-color: var(--golde);
+  width: 15px;
+  height: 15px; 
+}
+
+.ellips{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}

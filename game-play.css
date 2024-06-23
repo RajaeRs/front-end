@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-play{
+    display: grid;
+    grid-template-columns: repeat(4 , 5em);
+    grid-template-rows: repeat(4 , 5em);
+    gap: 0.5em;
+
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: bisque;
+    color:black;
+    
+}
+
+.dark-mode {
+    background: black;
+    color: bisque;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.special{
+    background-color: rgb(244, 168, 75);
+    
+}
