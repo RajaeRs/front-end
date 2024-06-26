@@ -1,4 +1,5 @@
 # Front end structer 
+```
 project-root/
 │
 ├──src/
@@ -60,3 +61,4 @@ project-root/
 │       │   └── auth.js
 │       └── app.js
 └── index.html
+```
